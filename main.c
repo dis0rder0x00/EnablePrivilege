@@ -27,8 +27,8 @@ int main(int argc, char *argv[]) {
         printf("\nUsage:\n");
         printf(".\\%s [<privilege> : all] <command>\n", argv[0]);
         printf("\nExample usages:\n");
-        printf(".\\%s SeDebugPrivilege 'cmd.exe'\n", argv[0]);
-        printf(".\\%s all 'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe'\n", argv[0]);
+        printf(".\\%s SeDebugPrivilege \"cmd.exe\"\n", argv[0]);
+        printf(".\\%s all \"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\"\n", argv[0]);
         printf(".\\%s all \"cmd.exe /K whoami /priv\"\n", argv[0]);
         return 0;
     }
